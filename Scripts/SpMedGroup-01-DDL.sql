@@ -79,13 +79,20 @@ GO
 
 
 
+SELECT * FROM Especialidade
+
+SELECT * FROM TipoUsuario
+
+SELECT * FROM Situacao
+
+SELECT * FROM Clinica
+
+SELECT * FROM Usuario
+
+SELECT * FROM Administrador
+
+SELECT * FROM Medico
+
+SELECT * FROM Paciente
 
 SELECT * FROM Consulta
-
-DROP TABLE Paciente;
-
-ALTER TABLE Paciente
-ALTER COLUMN RG VARCHAR(255);
-
-ALTER TABLE Consulta
-ALTER COLUMN DataConsulta DATETIME;

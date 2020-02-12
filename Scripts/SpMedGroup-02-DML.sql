@@ -95,12 +95,7 @@ SELECT * FROM Paciente
 
 SELECT * FROM Consulta
 
-TRUNCATE TABLE Paciente
-
-TRUNCATE TABLE Administrador
-
-TRUNCATE TABLE Medico
 
 
-DROP TABLE Usuario
+
 
